@@ -31,13 +31,15 @@ Compile the code using NVCC with the following command:
 
 ```bash
 nvcc -arch=sm_37 imageFilter.cu -o imageFilter -lboost_program_options `pkg-config opencv --cflags --libs`
+```
 
 The -arch=sm_37 flag specifies the compute capability of the GPU architecture targeted for compilation. In this case, it targets devices with compute capability 3.7. Adjust this flag according to your GPU's compute capability if necessary. You can find the compute capability of your GPU in the NVIDIA documentation.
 
 ## Usage
 Run the compiled executable with the following command:
 ```bash
-./imageFilter input_image [options]`
+./imageFilter input_image [options]
+```
 
 Replace input_image with the path to your input image. You can also specify the following options:
 
@@ -49,3 +51,4 @@ For example:
 
 ```bash
 ./imageFilter input.jpg -o output.jpg -m`
+```
