@@ -10,11 +10,11 @@ Original image:
 </p>
 Filtered image (Grayscale): 
 <p align="center">
-  <img  src="animal-gray.jpg" alt="alt text" width="50%" height="50%" title="Box filtering using GPU">
+  <img  src="output/animal-gray.jpg" alt="alt text" width="50%" height="50%" title="Box filtering using GPU">
 </p>
 Filtered image (Mirror): 
 <p align="center">
-  <img  src="animal-mirror.jpg" alt="alt text" width="50%" height="50%" title="Box filtering using GPU">
+  <img  src="output/animal-mirror.jpg" alt="alt text" width="50%" height="50%" title="Box filtering using GPU">
 </p>
 
 ## Prerequisites
