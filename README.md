@@ -43,9 +43,9 @@ Run the compiled executable with the following command:
 
 Replace input_image with the path to your input image. You can also specify the following options:
 
--o, --output: Specify the output file name (default is "output.jpg").
--m, --mirror: Mirror the input image.
--g, --gray: Convert the input image to grayscal
+-   -o, --output: Specify the output file name (default is "output.jpg").
+-   -m, --mirror: Mirror the input image.
+-   -g, --gray: Convert the input image to grayscale.
 
 For example:
 
