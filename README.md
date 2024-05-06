@@ -23,7 +23,6 @@ Before running the program, ensure you have the following dependencies installed
 
 - NVIDIA CUDA Toolkit
 - OpenCV (>= 2.4)
-- Boost C++ Libraries
 
 ## Compilation
 
@@ -50,5 +49,5 @@ Replace input_image with the path to your input image. You can also specify the 
 For example:
 
 ```bash
-./imageFilter input.jpg -o output.jpg -m`
+./imageFilter input.jpg -o output.jpg -m
 ```
